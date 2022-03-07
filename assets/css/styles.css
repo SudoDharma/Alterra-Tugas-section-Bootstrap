@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* content */
 .header_text{
+    margin-bottom: 8rem;
     text-align: center;
     color: gray;
 }
@@ -52,6 +53,10 @@ h1,h2,h3,h4,h5,h6,p{
 .cardd .read_more_text:hover{
     color: gray;
     cursor: pointer;
+}
+
+.body_container{
+    margin-bottom: 8rem;
 }
 
 .phone_bg img{
