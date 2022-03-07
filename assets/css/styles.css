@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+/* navbar */
+
+.navbarr{
+    border-top: gainsboro solid 3px;
+    border-bottom: gainsboro solid 2px;
+}
+
+.e_logo{
+    color: limegreen;
+}
+
+/* content */
+.header_text{
+    text-align: center;
+    color: gray;
+}
+
+.header_text h1{
+    font-weight: lighter;
+}
+
+.cardd{
+    row-gap: 1.5rem;
+    text-align: center;
+}
+.cardd .image_container{
+    height: 75px;
+    width: 75px;
+}
+.cardd img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardd .card_text{
+    margin: 0.5rem 0rem;
+}
+
+.cardd .read_more_text:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.phone_bg img{
+    width: 100%;
+    height: 100%;
+}
+
+.body_text span , .body_text p{
+    text-align: justify;
+    font-weight: normal;
+    color: gray;
+}
+
+.body_text span{
+    font-weight: lighter;
+}
+
+/* footer */
+.footerr .title{
+    letter-spacing: 0.3rem;
+}
+.footerr h6{
+    margin-bottom: 1rem;
+}
+.footerr ul{
+    padding-left: 0.2rem;
+    line-height: 2rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footerr li:hover{
+    color: white;
+}
